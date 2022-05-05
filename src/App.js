@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './component/Footer/Footer';
 import Title from './component/Title/Title'
 import Wine from './component/Wine/Wine'
+import UserLogin from './component/User/UserLogin';
 
 function App() {
     return ( < >
@@ -17,18 +18,21 @@ function App() {
         description = "serab1"
         rating = { 1 }
         islike /
-        > <
+        >
+        <
         Wine title = "serab adi 2"
         description = "serab2"
         rating = { 2 }
         islike /
-        > <
+        >
+        <
         Wine title = "serab adi 3"
         description = "serab3"
         rating = { 3 }
         islike /
         >
-
+        <
+        UserLogin / >
         <
         /> );
     }
