@@ -4,6 +4,7 @@ import Footer from './component/Footer/Footer';
 import Title from './component/Title/Title'
 import Wine from './component/Wine/Wine'
 import UserLogin from './component/User/UserLogin';
+import SignupForm from './component/SignupForm/SignupForm';
 
 function App() {
     return ( < >
@@ -11,7 +12,7 @@ function App() {
         Footer title = "Our first footer"
         number = { 200 }
         isON = { false }
-        / > <
+        /> <
         Title / >
         <
         Wine title = "serab adi 1"
@@ -34,7 +35,11 @@ function App() {
         <
         UserLogin / >
         <
-        /> );
-    }
+        SignupForm / >
 
-    export default App;
+        <
+        /> 
+    );
+}
+
+export default App;
